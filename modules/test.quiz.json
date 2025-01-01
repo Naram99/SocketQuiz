@@ -1,0 +1,31 @@
+{
+    "questions": [
+        {
+            "category": "test",
+            "id": 1,
+            "type": "fastest",
+            "question": "Mennyi 1+1?",
+            "answer": 2,
+            "acceptable": [],
+            "points": 10
+        },
+        {
+            "category": "test",
+            "id": 2,
+            "type": "guess",
+            "question": "Mennyi 1+1?",
+            "answer": 2,
+            "acceptable": ["kettő"],
+            "points": 15
+        },
+        {
+            "category": "test",
+            "id": 3,
+            "type": "list",
+            "question": "Mennyi 1+1?",
+            "answer": 2,
+            "acceptable": ["kettő", "Kettő"],
+            "points": 20
+        }
+    ]
+}

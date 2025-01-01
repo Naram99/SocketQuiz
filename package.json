@@ -1,0 +1,20 @@
+{
+    "name": "quiz",
+    "version": "0.1.0",
+    "description": "Multiplayer quiz app with Socket.io",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "Naram99",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "socket.io": "^4.8.1"
+    }
+}
+
