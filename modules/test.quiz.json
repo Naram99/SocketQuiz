@@ -1,31 +1,79 @@
 {
-    "questions": [
-        {
-            "category": "test",
-            "id": 1,
-            "type": "fastest",
-            "question": "Mennyi 1+1?",
-            "answer": 2,
-            "acceptable": [],
-            "points": 10
-        },
-        {
-            "category": "test",
-            "id": 2,
-            "type": "guess",
-            "question": "Mennyi 1+1?",
-            "answer": 2,
-            "acceptable": ["kettő"],
-            "points": 15
-        },
-        {
-            "category": "test",
-            "id": 3,
-            "type": "list",
-            "question": "Mennyi 1+1?",
-            "answer": 2,
-            "acceptable": ["kettő", "Kettő"],
-            "points": 20
-        }
-    ]
+    "testQuiz": {
+        "categories": [
+            {
+                "name": "test1",
+                "order": 1,
+                "questions": [
+                    {
+                        "id": 1,
+                        "level": "bronze",
+                        "type": "fastest",
+                        "question": "Mennyi 1+1?",
+                        "answer": 2,
+                        "multiAnswer": false,
+                        "acceptable": [],
+                        "points": 10
+                    },
+                    {
+                        "id": 2,
+                        "level": "silver",
+                        "type": "guess",
+                        "question": "Mennyi 1+1?",
+                        "answer": 2,
+                        "multiAnswer": false,
+                        "acceptable": ["kettő"],
+                        "points": 15
+                    },
+                    {
+                        "id": 3,
+                        "level": "gold",
+                        "type": "list",
+                        "question": "Mennyi 1+1?",
+                        "answer": 2,
+                        "multiAnswer": true,
+                        "acceptable": ["kettő", "Kettő"],
+                        "points": 20
+                    }
+                ]
+            },
+            {
+                "name": "test2",
+                "order": 2,
+                "questions": [
+                    {
+                        "id": 1,
+                        "level": "bronze",
+                        "type": "fastest",
+                        "question": "Mennyi 2+1?",
+                        "answer": 3,
+                        "multiAnswer": false,
+                        "acceptable": [],
+                        "points": 10
+                    },
+                    {
+                        "id": 2,
+                        "level": "silver",
+                        "type": "guess",
+                        "question": "Mennyi 2+1?",
+                        "answer": 3,
+                        "multiAnswer": false,
+                        "acceptable": ["három"],
+                        "points": 15
+                    },
+                    {
+                        "id": 3,
+                        "level": "gold",
+                        "type": "list",
+                        "question": "Mennyi 2+1?",
+                        "answer": 3,
+                        "multiAnswer": true,
+                        "acceptable": ["három", "Három"],
+                        "points": 20
+                    }
+                ]
+            }
+        ]
+    },
+    "testQuiz2": {}
 }

@@ -11,10 +11,25 @@
         <h2 id="welcomeText"></h2>
         <form action="" id="enterForm">
             <input type="text" name="playerName" id="playerName" />
+            <input type="text" name="roomInput" id="roomInput" />
             <button type="submit" id="submitBtn" class="btn">Belépés</button>
         </form>
+        <div id="errorText"></div>
+        <div id="roomName"></div>
         <ul id="playerList"></ul>
+        <div id="playerControls">
+            <div class="playerControlsHeader">
+                <h3 id="playerDisplay"></h3>
+                <h3 id="quizTitle"></h3>
+                <h3 id="playerPoints"></h3>
+            </div>
+            <div class="playerControlsMain"></div>
+        </div>
+        <div id="adminControls">
+            <h3>Üdv, Admin</h3>
+            <ul id="quizList"></ul>
+        </div>
         <script src="../socket.io/socket.io.js"></script>
-        <script src="script.js"></script>
+        <script type="module" src="script.js"></script>
     </body>
 </html>
